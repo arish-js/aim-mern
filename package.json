@@ -4,7 +4,8 @@
   "description": "Aim",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon backend/server.js"
+    "start": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend"
   },
   "author": "Arish",
   "license": "MIT",
